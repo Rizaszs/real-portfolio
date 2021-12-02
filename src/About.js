@@ -4,7 +4,7 @@ import aboutImg from "./img/about.jpg";
 
 function About() {
   return (
-    <div className="about component__space">
+    <div className="about component__space" id="About">
       <div className="container">
         <div className="row">
           <div className="col__2">
@@ -32,8 +32,12 @@ function About() {
                 illum hic deserunt veritatis dicta.
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#"><button className="about btn pointer">Download Cv</button></a>
-                <a href="#"><button className="about btn pointer">Hire Me</button></a>
+                <a href="#">
+                  <button className="about btn pointer">Download Cv</button>
+                </a>
+                <a href="#">
+                  <button className="about btn pointer">Hire Me</button>
+                </a>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ h1.about__heading{
     font-family: Montserrat,sans-serif;
     font-size: 60px;
 }
-button.aboutl.btn.pointer{
+button.about.btn.pointer{
     text-transform: capitalize;
     width: 195px;
     height: 55px;
@@ -21,4 +21,22 @@ button.aboutl.btn.pointer{
 }
 .about__button{
     padding: 20px 0px;
+}
+a.bottom__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #F9004D;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all ease;
+    z-index: 1000;
+}
+a.bottom__to__top.active{
+    display: flex;
 }
